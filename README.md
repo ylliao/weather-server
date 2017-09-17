@@ -1,15 +1,13 @@
 天气查询微服务
 =============================
 
-# 微服务简介
+## 微服务简介
 该服务主要是通过天气服务接口，获取昨天，未来五天（包含今天）的天气信息，然后返回JSON格式数据。
 
 ## 服务接口说明
 ### 接口地址
-- http://host:port/weather/cityId/{cityId}
-    其中，cityId中以通过 http://mobile.weather.com.cn/js/citylist.xml 获取
-- http://host:port/weather/cityName?cityName={cityName}
-    其中，`cityName` 城市名
+- http://host:port/weather/cityId/{cityId}，`cityId`可通过 http://mobile.weather.com.cn/js/citylist.xml 获取
+- http://host:port/weather/cityName?cityName={cityName}，`cityName` 城市名
 
 ### 接口返回数据
 - JSON数据
